@@ -1,43 +1,56 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
     background: #f3f1ff;
 }
-.background{
+
+.background {
     background: #fff;
 
 }
-.section-gap{
+
+.section-gap {
     padding-top: 40px;
 }
-#menu{
+
+#menu {
     background: #562EFF;
 }
-.navbar{
+
+.navbar {
     background: transparent;
 }
-.navbar a{
+
+.navbar a {
     color: #fff;
 }
-.logo{
+
+.logo {
     width: 40px;
 }
-.img-icon{
+
+.img-icon {
     width: 51px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
 }
-#player h3,#blog h3,#letest-course h3{
+
+.nav-list a {
+    line-height: 48px;
+}
+
+#player h3,
+#blog h3,
+#letest-course h3 {
     font-weight: 500;
     font-size: 24px;
     text-transform: capitalize;
     color: #562EFF;
     padding: 25px 0;
 }
-.player-img{
+
+.player-img {
     width: 56px;
 }
-.player-name h5{
+
+.player-name h5 {
     font-size: 18px;
     font-weight: 500;
     line-height: 24px;
@@ -45,52 +58,61 @@ body{
     text-transform: capitalize;
 }
 
-.div-border{
+.div-border {
     height: 30px;
     width: 75%;
     margin: 0 auto;
     border-bottom: 1px solid #D1D1D1;
 }
-#blog h4{
+
+#blog h4 {
     font-size: 24px;
     color: #000;
 }
-#blog p{
+
+#blog p {
     font-size: 16px;
     color: #000;
 }
-#blog p span{
+
+#blog p span {
     font-size: 16px;
     color: #9F9F9F;
 }
-.top-player{
+
+.top-player {
     padding-bottom: 50px;
 }
-.blog-gap{
+
+.blog-gap {
     padding-top: 25px;
 }
-#letest-course{
+
+#letest-course {
     margin-top: 30px;
     margin-bottom: 50px;
 }
-#letest-course .card{
+
+#letest-course .card {
     border-radius: 20px;
     box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
 }
-.clock{
+
+.clock {
     height: 30px;
     padding: 5px 10px;
     background: #FEE5DF;
-border-radius: 14.6913px;
-font-weight: 600;
-font-size: 14.6913px;
-line-height: 20px;
-color: #ED6B4F;
+    border-radius: 14.6913px;
+    font-weight: 600;
+    font-size: 14.6913px;
+    line-height: 20px;
+    color: #ED6B4F;
 }
-.rating{
-    font-size: 14px;
-line-height: 22px;
 
-color: #A2A2A2;
-margin-left: 10px;
+.rating {
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #A2A2A2;
+    margin-left: 10px;
 }
